@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex v1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="img/logo.png">
+    </div>
+    <hr>
+    <h2>Pesquise <strong>pokémons</strong> pelo seu <strong>nome</strong> ou <strong>ID</strong>.</h2>
+    <form>
+      <div class="group-form">
+        <label>Nome ou ID do Pokémon</label>
+        <input type="text" id="name" placeholder="Pikachu ou 25" required>
+      </div>
+      <div class="group-form">
+        <input type="submit" value="Pesquisar">
+      </div>
+    </form>
+    <div id="imgPokemon">
+      <img width="100px" height="100px" src="./img/placeholder.png" alt="">
+      <img width="100px" height="100px" src="./img/placeholder.png" alt="">
+    </div>
+    <div id="content">
+      ID:<br>
+      Nome:<br>
+      Tipo:<br>
+      Pokédex
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
